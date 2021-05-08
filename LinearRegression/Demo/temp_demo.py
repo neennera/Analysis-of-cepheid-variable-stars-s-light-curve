@@ -47,3 +47,4 @@ print("RMSE = ",np.sqrt(metrics.mean_squared_error(y_test,y_pred)))
 
 #หา r-squared 0-1 ยิ่งเยอะยิ่งดี
 print("Score = ",metrics.r2_score(y_test,y_pred))
+
